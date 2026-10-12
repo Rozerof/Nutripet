@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #12332f;
+  --color-leaf: #2f9e6b;
+  --color-leaf-dark: #247a54;
+  --color-mint: #e9f6ef;
+  --color-sun: #f6b93b;
+  --color-line: #cfe6da;
+  --font-display: "Fredoka", system-ui, sans-serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-mint);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
